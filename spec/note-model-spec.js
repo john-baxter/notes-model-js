@@ -1,8 +1,9 @@
-describe('Notes', function () {
-  describe('create', function () {
-    it('Can return text', function () {
-      var note = new Note;
-      expect(note.createNote('test note 1')).toEqual('test note 1');
-    });
-  });
-});
+
+createNote('test');
+if (listONotes.first == 'test') {
+  console.log('notes are stored in a list');
+  return true
+} else {
+  console.log('nothing stored in the array :: ERROR')
+  return false
+}
