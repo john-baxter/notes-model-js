@@ -1,9 +1,11 @@
-
-createNote('test');
-if (listONotes.first == 'test') {
-  console.log('notes are stored in a list');
-  return true
-} else {
-  console.log('nothing stored in the array :: ERROR')
-  return false
-}
+(function(exports) {
+  note = new Note("JavaScript is weird.");
+  function testNewNote() {
+    if (note.noteText === "JavaScript is weird.") {
+      console.log("Passed:- testNewNote")
+    } else {
+      throw new Error("TEST FAILED: testNewNote")
+    };
+  };
+  testNewNote();
+})(this);
