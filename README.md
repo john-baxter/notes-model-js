@@ -20,7 +20,7 @@ I can see the full text of an individual note on its own page
 1. TDD a model for a note
 2. TDD a model for a list of notes
 
-You are here! (finished step 2 with Neha 20200331)
+~~You are here! (finished step 2 with Neha 20200331)~~
 
 3. TDD a note list view
 4. Spike to create and serve an index.html page for your app
