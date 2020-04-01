@@ -35,5 +35,3 @@
   testHtmlConversion()
   testNoteListView()
 })(this)
-
-
