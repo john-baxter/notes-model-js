@@ -1,0 +1,19 @@
+{
+  "name": "notes-model",
+  "version": "1.0.0",
+  "description": "``` As a programmer So I can find the note I want I can see my list of notes, with each abbreviated to the first 20 characters ``` ``` As a programmer So I can record something I need to remember I can create a new note ``` ``` As a programmer So I can see all the information in the note I can see the full text of an individual note on its own page ``` # Challenges **NB** \"Spike\" means writing code without writing tests. \"TDD\" means develop test first.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-baxter/notes-model-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-baxter/notes-model-js/issues"
+  },
+  "homepage": "https://github.com/john-baxter/notes-model-js#readme"
+}
