@@ -14,7 +14,7 @@
   NoteListView.prototype.showTruncatedNotes = function() {
     var truncatedNoteArray = [];
     this.noteList.list.forEach(element => {
-      truncatedNoteArray.push(`<li><div>${element.truncatedNote}</div></li>`)
+      truncatedNoteArray.push(`<li><div>${element.truncatedNote}...</div></li>`)
     });
     return `<ul>${truncatedNoteArray.join("")}</ul>`
   }
