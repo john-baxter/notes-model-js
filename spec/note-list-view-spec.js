@@ -34,7 +34,7 @@
     noteList.notePush("testing note can be truncted")
     noteListView = new NoteListView(noteList)
     var showTruncatedNotes = noteListView.showTruncatedNotes()
-    assert.isTrue(showTruncatedNotes === '<ul><li><div>testing note can be </div></li></ul>', 'testShowTruncatedNotes')
+    assert.isTrue(showTruncatedNotes === '<ul><li><div>testing note can be ...</div></li></ul>', 'testShowTruncatedNotes')
   }
 
   testShowTruncatedNotes()

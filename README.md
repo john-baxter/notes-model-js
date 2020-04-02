@@ -39,10 +39,10 @@ I can see the full text of an individual note on its own page
 7. TDD a single note view
 
 ~~You are here! (finished step 7 with Gareth 202000401)~~
-You are here! (finished step XXX with Ben 202000402)
 
 8. Use TDD to show only the first 20 characters of each note on the main note list page
 
+You are here! (finished step XXX with Ben 202000402)
 
 9. Use TDD to finish the implementation of a single note page
 
