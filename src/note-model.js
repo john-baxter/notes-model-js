@@ -1,6 +1,7 @@
 (function(exports) {
   function Note(noteText){
     this.noteText = noteText;
+    this.truncatedNote = noteText.substr(0, 20);
 
   };
 

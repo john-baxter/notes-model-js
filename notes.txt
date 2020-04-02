@@ -1,0 +1,19 @@
+function testTruncatedListIsOnWebsite() {
+  // function noteTruncatorDouble() {
+  //   return "<ul><li><div>this is 20 character</div></li></ul>"
+  // }
+  // console.log("hello")
+  var nn = new Note("this note is a longer string than twenty")
+  var nl = new NoteView();
+  nl.pushNote(nn)
+  // nl.("this note is a longer string than twenty");
+  var nlv = new NoteListView(nl);
+  assert.isTrue(nlv.showTruncatedNotes() === "<ul><li><div>this note is a longe</div></li></ul>")
+  // showTruncatedNotes(noteTruncatorDouble())
+  // showTruncatedNotes(noteTruncatorDouble())
+  // console.log("hello2")
+  // assert.isTrue(document.getElementById("app").innerHTML === "<ul><li><div>this is 20 character</div></li></ul>", 'testTruncatedListIsOnWebsite')
+}
+
+testTruncatedListIsOnWebsite()
+// testListIsOnWebsite()
